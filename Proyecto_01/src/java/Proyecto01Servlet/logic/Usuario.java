@@ -9,5 +9,9 @@ package Proyecto01Servlet.logic;
  * @author jared
  */
 public class Usuario {
+    private int id;
+    private String contrasena;
+    
+    
     
 }
