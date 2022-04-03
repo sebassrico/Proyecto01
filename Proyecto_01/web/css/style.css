@@ -1,0 +1,112 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #527EFF;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicio h1{
+    font-size: 40px;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+}
+
+.signIn-Up{
+    padding: 1rem;
+}
+
+.signIn-Up a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+
+.signIn-Up a:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+.signIn-Up img{
+    max-height: 20px;
+    max-width: 20px;
+}
+
+body{
+    margin: 0;
+    background-color: #E1FDFB;
+}
+
+.search{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.search a{
+    background-color: #9E9E9E;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    align-items: center;
+    display: flex;
+}
+
+.search a:hover{
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+.inicio img{
+    max-height: 120px;
+    max-width: 120px;
+}
+.search img{
+    max-height: 75px;
+    max-width: 75px;
+}
+
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.slide img{
+    width: 375px;
+    height: 275px;
+}
+
+footer{
+    background-color: #527EFF;
+    color: white;
+    height: auto;
+    padding: 2rem;
+}
+
+
